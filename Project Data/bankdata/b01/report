@@ -1,0 +1,20 @@
+=============================================================
+    S BANK Transaction Report of branch [b01]    
+=============================================================
+Report Date: 2024/07/02      Print Location: address of [b01]
+
+ITEM      CLASS     TYPE   AMOUNT    BALANCE        REMARK   
+--------  --------  -----  --------  -------------  ---------
+XXXXXXXX  XXXXXXXX  XXXXX  99999.99  9999999999.99  XXXXXXXXX
+XXXXXXXX  XXXXXXXX  XXXXX  99999.99  9999999999.99  XXXXXXXXX
+XXXXXXXX  XXXXXXXX  XXXXX  99999.99  9999999999.99  XXXXXXXXX
+XXXXXXXX  XXXXXXXX  XXXXX  99999.99  9999999999.99  XXXXXXXXX
+XXXXXXXX  XXXXXXXX  XXXXX  99999.99  9999999999.99  XXXXXXXXX
+XXXXXXXX  XXXXXXXX  XXXXX  99999.99  9999999999.99  XXXXXXXXX
+
+
+----------------------  End of List    ----------------------
+                                       Totol Records: 99
+
+
+======================  End of Report  ======================

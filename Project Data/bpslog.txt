@@ -1,0 +1,115 @@
+ 
+<<<<< S Bank Batch Run Begin >>>>>>
+ 
+<<<<<< STAGE 0: Check if Data ready >>>>>>
+ 
+ 
+<<<<<< STAGE 1: Data Verification >>>>>>
+ 
+*===========================================================*
+*=== Program Data Verification for Branch:[b03] Start    ===*
+*===========================================================*
+[b03 Verify-Step-1]Read Transaction File Successfully!
+[b03 Verify-Step-2]Checking data integrity completed! Time taken: 7 seconds
+[b03 Verify-Step-3]Checking data compliance completed! Time taken: 5 seconds
+[b03 Verify-Step-4]Checking the policy rationality completed! Time taken: 3 seconds
+[b03 Verify-Step-5]Data verification completed! Total records: 203
+*-----------------------------------------------------------*
+*--- Program Data Verification for Branch:[b03] End      ---*
+*-----------------------------------------------------------*
+*===========================================================*
+*=== Program Data Verification for Branch:[b01] Start    ===*
+*===========================================================*
+[b01 Verify-Step-1]Read Transaction File Successfully!
+[b01 Verify-Step-2]Checking data integrity completed! Time taken: 7 seconds
+[b01 Verify-Step-3]Checking data compliance completed! Time taken: 5 seconds
+[b01 Verify-Step-4]Checking the policy rationality completed! Time taken: 3 seconds
+[b01 Verify-Step-5]Data verification completed! Total records: 99
+*-----------------------------------------------------------*
+*--- Program Data Verification for Branch:[b01] End      ---*
+*-----------------------------------------------------------*
+*===========================================================*
+*=== Program Data Verification for Branch:[b02] Start    ===*
+*===========================================================*
+[b02 Verify-Step-1]Read Transaction File Successfully!
+[b02 Verify-Step-2]Checking data integrity completed! Time taken: 7 seconds
+[b02 Verify-Step-3]Checking data compliance completed! Time taken: 5 seconds
+[b02 Verify-Step-4]Checking the policy rationality completed! Time taken: 3 seconds
+[b02 Verify-Step-5]Data verification completed! Total records: 66
+*-----------------------------------------------------------*
+*--- Program Data Verification for Branch:[b02] End      ---*
+*-----------------------------------------------------------*
+ 
+<<<<<< STAGE 2: Account Update >>>>>>
+ 
+*===========================================================*
+*=== Program Data update and accounting for [b02] Start  ===*
+*===========================================================*
+[b02 Update-Step-1] Open file to be updated.
+[b02 Update-Step-2] Get file descriptor successfully.
+[b02 Update-Step-3] Get file lock successfully.
+[b02 Update-Step-4] Update begin At timestamp:    2024/07/02 - 11:31:19
+[b02 Update-Step-5] Update finished At timestamp: 2024/07/02 - 11:31:33
+[b02 Update-Step-6] File lock released! Data updated Completed! Total records: 66
+*-----------------------------------------------------------*
+*--- Program Data update and accounting for [b02] End    ---*
+*-----------------------------------------------------------*
+*===========================================================*
+*=== Program Data update and accounting for [b01] Start  ===*
+*===========================================================*
+[b01 Update-Step-1] Open file to be updated.
+[b01 Update-Step-2] Get file descriptor successfully.
+[b01 Update-Step-3] Get file lock successfully.
+[b01 Update-Step-4] Update begin At timestamp:    2024/07/02 - 11:31:19
+[b01 Update-Step-5] Update finished At timestamp: 2024/07/02 - 11:31:33
+[b01 Update-Step-6] File lock released! Data updated Completed! Total records: 99
+*-----------------------------------------------------------*
+*--- Program Data update and accounting for [b01] End    ---*
+*-----------------------------------------------------------*
+*===========================================================*
+*=== Program Data update and accounting for [b03] Start  ===*
+*===========================================================*
+[b03 Update-Step-1] Open file to be updated.
+[b03 Update-Step-2] Get file descriptor successfully.
+[b03 Update-Step-3] Get file lock successfully.
+[b03 Update-Step-4] Update begin At timestamp:    2024/07/02 - 11:31:19
+[b03 Update-Step-5] Update finished At timestamp: 2024/07/02 - 11:31:33
+[b03 Update-Step-6] File lock released! Data updated Completed! Total records: 203
+*-----------------------------------------------------------*
+*--- Program Data update and accounting for [b03] End    ---*
+*-----------------------------------------------------------*
+ 
+<<<<<< STAGE 3: Generate Reports >>>>>>
+ 
+*===========================================================*
+*=== Program Generate Report for Branch: [b02] Start     ===*
+*===========================================================*
+[b02 Report-Step-1] Read Input Data Successfully!
+[b02 Report-Step-2] Set Output File Ready!
+[b02 Report-Step-3] Generating Report Completed!
+[b02's Report Path] /home/parallels/Documents/project/bankdata/b02/report
+*-----------------------------------------------------------*
+*--- Program Generate Report for Branch: [b02] End       ---*
+*----------------------------------------------------------*
+*===========================================================*
+*=== Program Generate Report for Branch: [b01] Start     ===*
+*===========================================================*
+[b01 Report-Step-1] Read Input Data Successfully!
+[b01 Report-Step-2] Set Output File Ready!
+[b01 Report-Step-3] Generating Report Completed!
+[b01's Report Path] /home/parallels/Documents/project/bankdata/b01/report
+*-----------------------------------------------------------*
+*--- Program Generate Report for Branch: [b01] End       ---*
+*----------------------------------------------------------*
+*===========================================================*
+*=== Program Generate Report for Branch: [b03] Start     ===*
+*===========================================================*
+[b03 Report-Step-1] Read Input Data Successfully!
+[b03 Report-Step-2] Set Output File Ready!
+[b03 Report-Step-3] Generating Report Completed!
+[b03's Report Path] /home/parallels/Documents/project/bankdata/b03/report
+*-----------------------------------------------------------*
+*--- Program Generate Report for Branch: [b03] End       ---*
+*----------------------------------------------------------*
+ 
+<<<<<< All batch processing done >>>>>>
